@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/time_two_weeks_field"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/weather_two_weeks_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@id/time_two_weeks_field" />
+
+    <TextView
+        android:id="@+id/pressure_two_weeks_field"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/weather_two_weeks_icon" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp">
+
+    <TextView
+        android:id="@+id/min_temperature_two_weeks_field"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/max_temperature_two_weeks_field"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:gravity="center_vertical" />
+    </LinearLayout>
+
+</RelativeLayout>
